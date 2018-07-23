@@ -1,0 +1,25 @@
+{
+  "name": "ipwn",
+  "version": "1.0.0",
+  "description": "Pwn jailbroken iDevices which have ssh enabled and default password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeadPackets/iPwn.git"
+  },
+  "author": "DeadPackets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeadPackets/iPwn/issues"
+  },
+  "homepage": "https://github.com/DeadPackets/iPwn#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.0.0",
+    "ora": "^3.0.0",
+    "ssh2": "^0.6.1"
+  }
+}
